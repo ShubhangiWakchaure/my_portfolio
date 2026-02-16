@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+.clip-polygon {
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+.tooltip {
+  position: absolute;
+  bottom: -32px;
+  background: rgba(0,0,0,0.7);
+  color: white;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  opacity: 0;
+  transform: translateY(6px);
+  transition: 0.3s ease;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.group:hover .tooltip {
+  opacity: 1;
+  transform: translateY(0);
+}
