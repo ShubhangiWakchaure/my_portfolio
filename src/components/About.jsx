@@ -18,7 +18,6 @@ const About = () => {
           {/* PERSONAL DETAILS */}
           <div className="text-gray-400 space-y-2 mb-8 text-sm sm:text-base">
             <p><span className="text-white font-medium">Full Name:</span> Shubhangi Nanasaheb Wakchaure</p>
-            <p><span className="text-white font-medium">Birth Date:</span> 04/07/2004</p>
             <p><span className="text-white font-medium">Email:</span> shubhangiwakchaure3@gmail.com</p>
             <p><span className="text-white font-medium">Phone:</span> +91 7350400437</p>
           </div>
