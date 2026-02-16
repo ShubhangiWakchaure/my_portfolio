@@ -1,5 +1,5 @@
 import Tilt from "react-parallax-tilt";
-import profilePic from "../assets/profile.jpeg"; // make sure path is correct
+import profilePic from "../assets/Profile.jpeg"; // make sure path is correct
 
 const About = () => {
   return (
